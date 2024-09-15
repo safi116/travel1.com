@@ -1,0 +1,38 @@
+
+ .clock{
+    height: 100vh;
+    width: 100%;
+    background-color:rgba(15, 11, 11, 0.959);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Times New Roman', Times, serif;
+}
+.clock-content{
+    position: absolute;
+    top: 50%;
+    background-image: linear-gradient(to right, green blue);
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.time{
+    font-size: 80px;
+    color: red;
+}
+.dated{
+    color:yellow;
+    font-size: 30px;
+}
+
+@media screen and (max-width:500px){
+    .time{
+    font-size: 35px;
+}
+.dated{
+    color:yellow;
+    font-size: 15px;
+}
+}
